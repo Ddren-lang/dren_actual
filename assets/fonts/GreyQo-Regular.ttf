@@ -1,0 +1,12 @@
+flutter:
+  uses-material-design: true
+
+  # 1. Primero registra la carpeta para que Flutter la vea
+  assets:
+    - assets/fonts/
+
+  # 2. Luego define la familia de la fuente
+  fonts:
+    - family: GreyQoRegular
+      fonts:
+        - asset: assets/fonts/GreyQo-Regular.ttf  # <--- AQUÍ VA EL NOMBRE REAL
